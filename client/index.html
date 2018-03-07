@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Socket.io Demo</title>
+        <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="client/styles.css">
+    </head>
+    <body>
+
+		<div class="main">
+			<h1>Shooting game</h1>
+            <p>This is a shooting game. Enjoy!!!</p>
+		</div>
+
+		<canvas id="ctx" width="500" height="500" style="border: 5px solid #FFC100; background-color: #A5D028;"></canvas>
+
+		<div id="chat-text" style="width:500px; height:100px; overflow-y:scroll;">
+			<div class="txt" style="font-weight: 800; color: green;">CHAT!</div>
+		</div>
+		<form id="chat-form">
+			<input id="chat-input" type="text" style="width:500px"></input>
+		</form>
+
+        <script src="/socket.io/socket.io.js"></script>
+		<script src="client/game.js"></script>
+    </body>
+</html>

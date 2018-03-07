@@ -6,6 +6,8 @@ The tutorials that helped create this game can be found at [RainChain](https://r
 
 To start the webserver go to the `command prompt` and navigate to the project folder and run `node app.js`.
 To restart the server press `CTRL + C` and then run `node app.js` again. 
-In the browser of your choice visit `http://localhost:3000/` .
+
+In the browser of your choice visit [http://localhost:3000/](http://localhost:3000/).
+
 To add multiple players, open a new window and add the route again. 
 
